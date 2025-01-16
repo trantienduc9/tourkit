@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CategoryController;
 
 Route::get('/', function () {
     return redirect()->route('posts.index');
@@ -17,6 +18,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('posts', PostController::class);
+    Route::get('/getData', [PostController::class, 'getData'])->name('posts.getData');
+    Route::resource('categories', CategoryController::class);
 });
 
 require __DIR__.'/auth.php';
