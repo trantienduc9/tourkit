@@ -17,6 +17,14 @@ For Production:
 `npm run build`
 
 And, Have a good job!
+
+
+![image](https://github.com/user-attachments/assets/3b36308e-1e4c-4962-8617-a2c6c6f2f7f9)
+![image](https://github.com/user-attachments/assets/572fc056-aef2-4481-9cd8-e2de90484592)
+![image](https://github.com/user-attachments/assets/56b98f3d-1610-42e8-b18b-19b2008f1c2c)
+![image](https://github.com/user-attachments/assets/82ee5c3f-8c84-423b-a322-ad153e258068)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
